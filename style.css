@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-image: url("./dickens-lin-Go0RA_sQPwc-unsplash.jpg");
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 12px;
+    background: black;
+    box-shadow: 0 0 75px rgb(0, 0, 0);
+}
+.top{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.top >input{
+    padding: 10px 10px;
+    margin:  20px auto;
+    width: 100%; 
+    box-sizing: border-box;
+    font-size: 35px;
+    text-align: right;
+    font-weight: bold;
+    background: black;
+    color: white;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.bottoms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.bottoms .btn{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+}
+.btn-0{
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: start;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0 10px 0 10px;
+    border: none;
+}
+.bg-yellow{
+    background: #F69906;
+}
+.bg-gray{
+    background: #9F9F9F;
+}
+.bg-dark-gray{
+    background: #313131;
+}
+.text-white{
+    color: white;
+}
+button:hover{
+    filter: invert(1);
+    
+}
