@@ -38,6 +38,7 @@ body{
     background: black;
     color: white;
     border: none;
+    cursor:default;
     border-bottom: 1px solid gray;
 }
 .top >input:focus {
@@ -60,6 +61,7 @@ body{
     font-size: 19px;
     font-weight: bold;
     border: none;
+    transition: all 0.3s;
 }
 .btn-0{
     width: 120px;
@@ -70,6 +72,8 @@ body{
     font-weight: bold;
     margin: 0 10px 0 10px;
     border: none;
+    padding:  0 20px;
+    transition: all 0.3s;
 }
 .bg-yellow{
     background: #F69906;
@@ -84,6 +88,5 @@ body{
     color: white;
 }
 button:hover{
-    filter: invert(1);
-    
+    filter: invert(1) brightness(60%);
 }
