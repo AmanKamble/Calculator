@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     display: flex;
     justify-content: center;
@@ -36,6 +40,10 @@ body{
     border: none;
     border-bottom: 1px solid gray;
 }
+.top >input:focus {
+    outline: none;
+    box-shadow: none;
+  }
 .bottoms{
     display: flex;
     flex-wrap: wrap;
